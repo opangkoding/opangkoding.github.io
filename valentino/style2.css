@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background: #f7f2ec;
+    font-family: 'Playfair Display', serif;
+    overflow-x: hidden;
+}
+
+.fade {
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+.content {
+    max-width: 700px;
+    margin: 60px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #8b3a3a;
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 85%;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.letter {
+    font-size: 1.1rem;
+    color: #6b5d5b;
+    line-height: 1.6;
+}
+
+/* FALLING HEARTS */
+.hearts {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
